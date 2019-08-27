@@ -1,0 +1,13 @@
+{
+  "db": {
+    "dbType": "MySql",
+    "connectionString": "Server=127.0.0.1;port=3307;UserId=root;Password=abc123456;Database=WeChatSync;charset='utf8mb4';Allow User Variables=True"
+  },
+  "wechat": {
+    "appid": "微信AppID",
+    "secret": "微信Secret"
+  },
+  "setting": {
+    "ThreadPoolCount": 1 //线程池的数量配置，设置越大并行线程越多
+  }
+}
